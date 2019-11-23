@@ -12,6 +12,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+/*
 mongoose.connect(process.env.MONGO_URI, {
   useCreateIndex: true,
   useNewUrlParser: true,
@@ -38,6 +39,8 @@ MongoClient.connect('mongodb://localhost:27017/animals', function (err, client) 
     console.log(result)
   })
 })
+
+*/
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
